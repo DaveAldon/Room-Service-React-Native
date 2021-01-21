@@ -1,2 +1,3 @@
-# Room-Service-Expo
-Demonstration of React Room Service in Expo/React Native
+# Room-Service-React-Native
+
+Demonstration of React Room Service in React Native
