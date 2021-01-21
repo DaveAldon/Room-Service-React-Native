@@ -79,3 +79,7 @@ module.exports = {
 9. If you have issues getting it to work after all of this, and looking at this repo's code, let me know and I can try to help you out.
 
 ### Current Issues
+
+1. `b64Decode is not a function` As a result, the phone can write data, and everyone else can see it update. But the phone cannot see updates from other users.
+
+<image width="30%" src="https://github.com/DaveAldon/Room-Service-React-Native/blob/main/repo-images/issue1.png?raw=true">
