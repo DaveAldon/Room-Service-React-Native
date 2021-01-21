@@ -83,3 +83,16 @@ module.exports = {
 1. `b64Decode is not a function` As a result, the phone can write data, and everyone else can see it update. But the phone cannot see updates from other users.
 
 <image width="30%" src="https://github.com/DaveAldon/Room-Service-React-Native/blob/main/repo-images/issue1.png?raw=true">
+
+This seems to be happening because it can't run this function in `node_modules/@roomservice/core/dist/core.cjs.development.js`:
+
+```javascript
+var b64Decode = /*#__PURE__*/ (function () {
+  if (isNodejs()) {
+    return function (s) {
+      return Buffer.from(s, "base64").toString("binary");
+    };
+  }
+  return window.atob;
+})();
+```
