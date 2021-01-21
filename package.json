@@ -108,5 +108,11 @@
     "tty": "tty-browserify",
     "vm": "vm-browserify",
     "tls": false
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "jsxBracketSameLine": false,
+    "trailingComma": "all",
+    "printWidth": 200
   }
 }
