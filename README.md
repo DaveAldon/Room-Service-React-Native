@@ -69,12 +69,12 @@ module.exports = {
    **Android**: Add `android:usesCleartextTraffic="true"` under the Application tag in `android/app/src/main/AndroidManifest.xml`
    **iOS**: Add this to `ios/roomservicereactnative/Info.plist`:
 
-   ````
+   ```
     <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key><true/>
-    </dict>```
-   ````
+    </dict>
+   ```
 
 9. If you have issues getting it to work after all of this, and looking at this repo's code, let me know and I can try to help you out.
 
