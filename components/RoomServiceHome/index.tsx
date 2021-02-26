@@ -77,6 +77,11 @@ const RoomServiceHome = () => {
 
 export { RoomServiceHome };
 
+export const Testables = {
+  RoomServiceHome: RoomServiceHome,
+  Draggables: Draggables,
+};
+
 const styles = StyleSheet.create({
   inputView: { flexDirection: "row", height: "100%", backgroundColor: "#abffc1", alignItems: "center", borderRadius: 10, margin: 10, padding: 10 },
 });

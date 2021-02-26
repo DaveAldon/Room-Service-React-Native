@@ -4,7 +4,7 @@ import { RoomServiceProvider } from "@roomservice/react";
 import { RoomServiceHome } from "./components/RoomServiceHome/index";
 
 async function AuthCheck(params) {
-  const response = await fetch("http://172.16.29.51:3000/api/roomservice", {
+  const response = await fetch("http://192.168.101.188:3000/api/roomservice", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

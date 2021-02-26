@@ -16,6 +16,7 @@
   "dependencies": {
     "@roomservice/react": "^1.0.6",
     "@tradle/react-native-http": "^2.0.0",
+    "@types/jest": "^26.0.20",
     "assert": "^1.1.1",
     "browserify-zlib": "~0.1.4",
     "console-browserify": "^1.1.0",
@@ -64,7 +65,18 @@
     "rn-nodeify": "github:tradle/rn-nodeify"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx",
+      "node"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-native-gesture-handler|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
+    ]
   },
   "react-native": {
     "zlib": "browserify-zlib",
