@@ -2,9 +2,13 @@
 
 Demonstration of the Room Service library in React Native.
 
+# WARNING - ROOM SERVICE WENT OUT OF BUSINESS AND IS COMEPLTELY DEFUNCT
+
+This repo now better serves as more of an example of getting React Native to work with more node leaning libraries.
+
 ### About
 
-Room Service is a "multiplayer" React State management library that helps build real-time collaboration services. [Check out its website here](https://www.roomservice.dev/).
+Room Service was a "multiplayer" React State management library that helped build real-time collaboration services. [Their old website was here](https://www.roomservice.dev/).
 
 ![](repo-images/demo.gif?raw=true)
 
